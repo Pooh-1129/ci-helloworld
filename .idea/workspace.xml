@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5ba62fa-e7e4-4f6b-8050-f4a861a19af6" name="Changes" comment="added Dockerfile" />
+    <list default="true" id="d5ba62fa-e7e4-4f6b-8050-f4a861a19af6" name="Changes" comment="added Dockerfile">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -119,7 +122,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1687375347153</updated>
-      <workItem from="1687375350592" duration="6509000" />
+      <workItem from="1687375350592" duration="7203000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1687384606981</created>
@@ -156,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687390354081</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added Dockerfile">
+      <created>1687391037879</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1687391037879</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

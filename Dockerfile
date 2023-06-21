@@ -2,10 +2,14 @@
 FROM adoptopenjdk/openjdk11:latest
 
 #
-ARG JAR_FILE=/build/libs/ci-helloworld-1.0-SNAPSHOT.jar
+ARG JAR_FILE=build/libs/ci-helloworld-1.0-SNAPSHOT.jar
 
-#
-WORKDIR .
+RUN mkdir -p /workspace
+COPY build.gradle /workspace
+COPY gradlew /workspace
+COPY src /workspace/src
+WORKDIR /workspace
+RUN ./gradlew build jar
 
 #
 COPY ${JAR_FILE} app.jar

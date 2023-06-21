@@ -9,6 +9,7 @@ COPY build.gradle /workspace
 COPY gradlew /workspace
 COPY src /workspace/src
 WORKDIR /workspace
+RUN chmod a+x gradlew
 RUN ./gradlew build jar
 
 #

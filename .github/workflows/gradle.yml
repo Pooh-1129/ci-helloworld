@@ -40,6 +40,8 @@ jobs:
         arguments: test
     - name: Run Test Coverage
       run: ./gradlew jacocoTestReport
+    - name: ls
+      run: ls -l
     - name: Jacoco
       uses: cicirello/jacoco-badge-generator@v2.9.0
       with:

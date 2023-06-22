@@ -44,7 +44,7 @@ jobs:
       uses: cicirello/jacoco-badge-generator@v2.9.0
       with:
         jacoco-csv-file: build/reports/jacoco/jacocoTestReports.csv
-        generate-branches-badsge: true
+        fail-if-branches-less-than: 80
   
   build-docker-image:
     environment: ci/cd

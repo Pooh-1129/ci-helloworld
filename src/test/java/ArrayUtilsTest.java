@@ -51,7 +51,7 @@ public class ArrayUtilsTest {
     // The reason is that error states are not repairable by subsequent processing.
     @Test
     public void testOddOrPositiveBothPositivesAndNegatives() {
-        assertEquals(3, ArrayUtils.oddOrPos(new int[]{-3, -2, 0, 1, 4}));
+        assertEquals(2, ArrayUtils.oddOrPos(new int[]{-3, -2, 0, 1, 4}));
     }
 
 

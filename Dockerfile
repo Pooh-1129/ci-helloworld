@@ -14,6 +14,7 @@ WORKDIR /workspace
 RUN chmod a+x gradlew
 RUN ./gradlew build
 
+RUN ls -l build/libs
 #
 COPY ${JAR_FILE} app.jar
 

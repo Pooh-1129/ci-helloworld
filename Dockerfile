@@ -2,7 +2,7 @@
 FROM adoptopenjdk/openjdk11:latest
 
 #
-ARG JAR_FILE=workspace/build/libs/workspace-1.0-SNAPSHOT.jar
+ARG JAR_FILE=build/libs/workspace-1.0-SNAPSHOT.jar
 
 RUN mkdir -p /workspace
 COPY build.gradle /workspace

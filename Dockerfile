@@ -12,7 +12,7 @@ COPY gradle /workspace/gradle
 COPY src /workspace/src
 WORKDIR /workspace
 RUN chmod a+x gradlew
-Run ./gradlew build
+RUN ./gradlew build
 RUN pwd
 RUN ls -l build/libs
 COPY ${JAR_FILE} app.jar

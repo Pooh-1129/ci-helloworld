@@ -1,8 +1,8 @@
 # For Java 11, try this
-FROM adoptopenjdk/openjdk11:latest
+FROM adoptopenjdk/openjdk11:latest AS build
 
 #
-ARG JAR_FILE=build/libs/ci-helloworld-1.0-SNAPSHOT.jar
+ARG JAR_FILE=workspace/build/libs/ci-helloworld-1.0-SNAPSHOT.jar
 
 RUN mkdir -p /workspace
 COPY build.gradle /workspace
@@ -13,8 +13,10 @@ COPY src /workspace/src
 WORKDIR /workspace
 RUN chmod a+x gradlew
 RUN ./gradlew build
+
+FROM adoptopenjdk/openjdk11:latest
 RUN pwd
 RUN ls -l build/libs
-COPY ${JAR_FILE} app.jar
+COPY --from=build ${JAR_FILE} app.jar
 EXPOSE 6379
 ENTRYPOINT ["java","-jar","app.jar"]

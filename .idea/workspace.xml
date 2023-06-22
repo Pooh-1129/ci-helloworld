@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5ba62fa-e7e4-4f6b-8050-f4a861a19af6" name="Changes" comment="added Dockerfile">
+    <list default="true" id="d5ba62fa-e7e4-4f6b-8050-f4a861a19af6" name="Changes" comment="Updated Dockerfile">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ArrayUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ArrayUtilsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +37,12 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="ci-helloworld" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ci-helloworld" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -107,9 +115,39 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="ci-helloworld [jacocoTestReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jacocoTestReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ci-helloworld/build/reports/jacoco/test/html/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ci-helloworld/build/reports/tests/test/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.ArrayUtilsTest" />
+        <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="Gradle.ci-helloworld [jacocoTestReport]" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -122,7 +160,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1687375347153</updated>
-      <workItem from="1687375350592" duration="7203000" />
+      <workItem from="1687375350592" duration="12887000" />
+      <workItem from="1687400579133" duration="1918000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1687384606981</created>
@@ -166,7 +205,189 @@
       <option name="project" value="LOCAL" />
       <updated>1687391037879</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Updated Dockerfile">
+      <created>1687391749359</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1687391749359</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Updated Dockerfile">
+      <created>1687391884261</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1687391884261</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Updated Dockerfile">
+      <created>1687392179108</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1687392179108</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Updated Dockerfile">
+      <created>1687392357978</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1687392357978</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Updated Dockerfile">
+      <created>1687392470324</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1687392470324</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Updated Dockerfile">
+      <created>1687392698150</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1687392698150</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Updated Dockerfile">
+      <created>1687392863748</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1687392863748</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Updated Dockerfile">
+      <created>1687393059569</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1687393059569</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Updated Dockerfile">
+      <created>1687393380179</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1687393380179</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Updated Dockerfile">
+      <created>1687394123606</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1687394123606</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Updated Dockerfile">
+      <created>1687394323393</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1687394323393</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Updated Dockerfile">
+      <created>1687394484059</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1687394484059</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Updated Dockerfile">
+      <created>1687394626945</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1687394626945</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Updated Dockerfile">
+      <created>1687394795594</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1687394795594</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Updated Dockerfile">
+      <created>1687394973386</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1687394973386</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Updated Dockerfile">
+      <created>1687395646033</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1687395646033</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Updated Dockerfile">
+      <created>1687395943027</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1687395943027</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Updated Dockerfile">
+      <created>1687396150784</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1687396150784</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Updated Dockerfile">
+      <created>1687396165342</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1687396165342</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Updated Dockerfile">
+      <created>1687396407899</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1687396407899</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Updated Dockerfile">
+      <created>1687396420727</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1687396420727</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Updated Dockerfile">
+      <created>1687396623774</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1687396623774</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Updated Dockerfile">
+      <created>1687396639111</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1687396639111</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Updated Dockerfile">
+      <created>1687396782365</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1687396782365</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Updated Dockerfile">
+      <created>1687396800807</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1687396800807</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Updated Dockerfile">
+      <created>1687397665511</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1687397665511</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,7 +407,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="added Dockerfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Dockerfile" />
+    <MESSAGE value="Updated Dockerfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Dockerfile" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

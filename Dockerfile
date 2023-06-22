@@ -12,7 +12,7 @@ COPY gradle /workspace/gradle
 COPY src /workspace/src
 WORKDIR /workspace
 RUN chmod a+x gradlew
-RUN ./gradlew build
+RUN ./gradlew build --rm=false
 RUN pwd
 RUN ls -l build/libs
 

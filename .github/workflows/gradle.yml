@@ -43,7 +43,7 @@ jobs:
     - name: Jacoco
       uses: cicirello/jacoco-badge-generator@v2.9.0
       with:
-        jacoco-csv-file: build/reports/jacoco/jacocoTestReports.csv
+        jacoco-csv-file: build/reports/jacoco/jacocoTestReport.csv
         fail-if-branches-less-than: 0
   
   build-docker-image:

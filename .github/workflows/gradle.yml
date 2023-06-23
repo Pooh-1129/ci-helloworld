@@ -47,7 +47,6 @@ jobs:
         fail-if-branches-less-than: 80
   
   build_and_publish_docker_image:
-    environment: ci/cd
     name: Publish to Docker Hub
     runs-on: ubuntu-latest
     needs: [build_and_test]

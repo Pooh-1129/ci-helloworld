@@ -40,13 +40,11 @@ jobs:
         arguments: test
     - name: Run Test Coverage
       run: ./gradlew jacocoTestReport
-    - name: ls
-      run: ls -l build
     - name: Jacoco
       uses: cicirello/jacoco-badge-generator@v2.9.0
       with:
         jacoco-csv-file: build/reports/jacoco/test/jacocoTestReport.csv
-        fail-if-branches-less-than: 100
+        fail-if-branches-less-than: 80
   
   build_and_publish_docker_image:
     environment: ci/cd

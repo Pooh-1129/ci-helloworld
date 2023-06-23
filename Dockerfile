@@ -15,8 +15,6 @@ RUN chmod a+x gradlew
 RUN ./gradlew build
 
 FROM adoptopenjdk/openjdk11:latest
-RUN pwd
-# RUN --from=build ls -l workspace/build/libs
 COPY --from=build ${JAR_FILE} app.jar
 EXPOSE 6379
 ENTRYPOINT ["java","-jar","app.jar"]

@@ -19,43 +19,6 @@ public class ArrayUtils {
     }
 
     /**
-     * Find last index of zero
-     *
-     * @param x array to search
-     * @return last index of 0 in x; -1 if absent
-     * @throws NullPointerException if x is null
-     */
-    // test: x = [0, 1, 0]; Expected = 2
-    public static int lastZero (int[] x)  {
-        for (int i = x.length; i >= 0; i--) {
-            if (x[i] == 0) {
-                return i;
-            }
-        }
-        return -1;
-    }
-
-
-    /**
-     * Count positive elements
-     * *
-     * @param x array to search
-     * @return count of positive elements in x
-     * @throws NullPointerException if x is null
-     */
-    // test: x = [-4, 2, 0, 2]; Expected = 2
-    public static int countPositive (int[] x) {
-        int count = 0;
-        for (int i=0; i < x.length; i++) {
-            if (x[i] > 0) {
-                count++;
-            }
-        }
-        return count;
-    }
-
-
-    /**
      * Count odd or positive elements
      *
      * @param x array to search

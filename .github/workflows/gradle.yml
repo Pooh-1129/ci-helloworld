@@ -48,7 +48,7 @@ jobs:
         jacoco-csv-file: build/reports/jacoco/test/jacocoTestReport.csv
         fail-if-branches-less-than: 100
   
-  build-docker-image:
+  build_and_publish_docker_image:
     environment: ci/cd
     name: Publish to Docker Hub
     runs-on: ubuntu-latest

@@ -11,7 +11,7 @@ on:
 
 jobs:
   build_and_test:
-
+    name: Build and Test
     runs-on: ubuntu-latest
 
     steps:
@@ -37,7 +37,7 @@ jobs:
         uses: cicirello/jacoco-badge-generator@v2.9.0
         with:
           jacoco-csv-file: build/reports/jacoco/test/jacocoTestReport.csv
-          fail-if-branches-less-than: 80
+          fail-if-branches-less-than: 100
 
   build_and_publish_docker_image:
     name: Publish to Docker Hub

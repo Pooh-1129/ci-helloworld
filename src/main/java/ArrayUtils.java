@@ -29,7 +29,7 @@ public class ArrayUtils {
     public static int oddOrPos(int[] x) {
         int count = 0;
         for (int i = 0; i < x.length; i++) {
-            if (x[i] % 2 != 0 || x[i] > 0) {
+            if (Math.abs(x[i] % 2) == 1 || x[i] > 0) {
                 count++;
             }
         }

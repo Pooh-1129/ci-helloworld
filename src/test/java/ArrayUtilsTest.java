@@ -9,7 +9,6 @@ public class ArrayUtilsTest {
         assertThrows(NullPointerException.class, () -> {ArrayUtils.findLast(null, 3);});
     }
 
-
     @Test
     public void testFindLastEmpty() {
         // For any input where y appears in the second or later position, there is no error. Also,
@@ -45,7 +44,5 @@ public class ArrayUtilsTest {
     public void testOddOrPositiveBothPositivesAndNegatives() {
         assertEquals(3, ArrayUtils.oddOrPos(new int[]{-3, -2, 0, 1, 4}));
     }
-
-
 
 }

@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5ba62fa-e7e4-4f6b-8050-f4a861a19af6" name="Changes" comment="updated main">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ArrayUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArrayUtils.java" afterDir="false" />
+    <list default="true" id="d5ba62fa-e7e4-4f6b-8050-f4a861a19af6" name="Changes" comment="updated ArrayUtils">
+      <change beforePath="$PROJECT_DIR$/src/test/java/ArrayUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ArrayUtilsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +203,7 @@
       <workItem from="1710350698107" duration="1663000" />
       <workItem from="1711390957760" duration="438000" />
       <workItem from="1741628218417" duration="2187000" />
-      <workItem from="1741789787045" duration="3174000" />
+      <workItem from="1741789787045" duration="3315000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1687384606981</created>
@@ -487,7 +486,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741628363556</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="updated ArrayUtils">
+      <option name="closed" value="true" />
+      <created>1741802184605</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1741802184605</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -511,7 +518,8 @@
     <MESSAGE value="Updated ArrayUtils.java" />
     <MESSAGE value="Added ArrayUtils.java" />
     <MESSAGE value="updated main" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated main" />
+    <MESSAGE value="updated ArrayUtils" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated ArrayUtils" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

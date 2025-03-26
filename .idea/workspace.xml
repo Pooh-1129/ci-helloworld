@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d5ba62fa-e7e4-4f6b-8050-f4a861a19af6" name="Changes" comment="updated ArrayUtils">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ArrayUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArrayUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ArrayUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ArrayUtilsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +209,7 @@
       <workItem from="1741628218417" duration="2187000" />
       <workItem from="1741789787045" duration="3315000" />
       <workItem from="1743012322568" duration="3508000" />
-      <workItem from="1743020584423" duration="79000" />
+      <workItem from="1743020584423" duration="587000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1687384606981</created>

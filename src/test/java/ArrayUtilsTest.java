@@ -45,4 +45,33 @@ public class ArrayUtilsTest {
         assertEquals(3, ArrayUtils.oddOrPos(new int[]{-3, -2, 0, 1, 4}));
     }
 */
+
+    @Test
+    void testCountOf_NormalCase() {
+        int[] x = {1, 2, 2, 3, 4};
+        assertEquals(2, ArrayUtils.countOf(x, 2));
+    }
+
+    @Test
+    void testCountOf_NoOccurrences() {
+        int[] x = {1, 2, 3, 4};
+        assertEquals(0, ArrayUtils.countOf(x, 5));
+    }
+
+    @Test
+    void testCountOf_AllOccurrences() {
+        int[] x = {7, 7, 7, 7, 7};
+        assertEquals(5, ArrayUtils.countOf(x, 7));
+    }
+
+    @Test
+    void testCountOf_EmptyArray() {
+        int[] x = {};
+        assertEquals(0, ArrayUtils.countOf(x, 1));
+    }
+
+    @Test
+    void testCountOf_NullArray() {
+        assertThrows(NullPointerException.class, () -> ArrayUtils.countOf(null, 2));
+    }
 }

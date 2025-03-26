@@ -36,4 +36,21 @@ public class ArrayUtils {
         return count;
     }
     // leave a comment here!
+
+    /**
+     * Count occurrences of a target value in an array
+     *
+     * @param x array to search
+     * @param target the value to count occurrences of
+     * @return count of occurrences of target in x
+     * @throws NullPointerException if x is null
+     */
+    // test: x = [1, 2, 2, 3, 4], target = 2; Expected = 2
+    public static int countOf(int[] x, int target) {
+        int count = 0;
+        for (int a: x) {
+            count = a == target ? count + 1 : count;
+        }
+        return count;
+    }
 }
